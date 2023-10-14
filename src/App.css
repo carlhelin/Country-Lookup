@@ -1,0 +1,88 @@
+/* App.css */
+
+/* Styles for the entire application container */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+
+/* Header styles */
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* SearchBar component styles */
+.SearchBar {
+  margin-bottom: 20px;
+}
+
+.ContinentSelector {
+  margin-top: 20px;
+}
+
+/* Table component styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+/* Set a fixed width for the "Country" column */
+.country-column {
+  width: 10rem; 
+  min-width: 10rem; 
+  max-width: 10rem; 
+  white-space: nowrap; 
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.population-growth-cell {
+  text-align: center; 
+}
+
+.continent-cell {
+  text-align: left;
+}
+
+/* PageNumber and PageSize component styles */
+.PageNumber, .PageSize {
+  margin-top: 20px;
+}
+
+/* Pagination styles */
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination li {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.pagination li:last-child {
+  margin-right: 0;
+}
+
+.pagination li.active {
+  font-weight: bold;
+  color: #333;
+}
